@@ -20,15 +20,14 @@
 
 | 📁 What | 🔗 Open | What you will see |
 |---|---|---|
-| 📊 **Power BI Dashboard** | [`06_Dashboard/Ikea_Dashboard.pbix`](./06_Dashboard/Ikea_Dashboard.pbix) · [Screenshots](#dashboard) | 3-page interactive report with slicers, toggles and drill-down |
-| 🗄️ **SQL Code** | [`03_SQL/IKEA_SQL_Code.sql`](./03_SQL/IKEA_SQL_Code.sql) · [SQL walkthrough](#sql) | Import, validation, deduplication of 1M+ rows in MySQL |
-| 🐍 **Python Notebook** | [`04_Python/Online_retail.ipynb`](./04_Python/Online_retail.ipynb) · [Python walkthrough](#python) | RFM scoring, segmentation and churn flag in pandas |
-| 📗 **Excel Data Model** | [`05_Excel/EcommerceDashboardData.xlsx`](./05_Excel/EcommerceDashboardData.xlsx) · [Data dictionary](#excel) | Final analysis-ready dataset that feeds the dashboard |
-| 📄 **Business Requirements (BRD)** | [`01_Business_Requirements/IKEA_Gifting_BRD.docx`](./01_Business_Requirements/IKEA_Gifting_BRD.docx) · [Summary](#business-problem) | Objectives, scope, definitions, success criteria |
-| 🧹 **Cleaned Dataset** | [`02_Data/online_retail_clean.zip`](./02_Data/online_retail_clean.zip) | Deduplicated transactions exported from MySQL |
+| 📊 **Power BI Dashboard** | [`06_Dashboard/Ikea_Dashboard.pbix`](https://github.com/DarshChoudhary-09/End-to-End-Project/blob/main/Screenshot%202026-10-30%20223554.png) · [Screenshots](#dashboard) | 3-page interactive report with slicers, toggles and drill-down |
+| 🗄️ **SQL Code** | [`03_SQL/IKEA_SQL_Code.sql`](https://github.com/DarshChoudhary-09/End-to-End-Project/blob/main/IKEA%20SQL%20Code.sql) · [SQL walkthrough](#sql) | Import, validation, deduplication of 1M+ rows in MySQL |
+| 🐍 **Python Notebook** | [`04_Python/Online_retail.ipynb`](https://github.com/DarshChoudhary-09/End-to-End-Project/blob/main/Online_retail_Pyhton_Code.ipynb) · [Python walkthrough](#python) | RFM scoring, segmentation and churn flag in pandas |
+| 📗 **Excel Data Model** | [`05_Excel/EcommerceDashboardData.xlsx`](https://github.com/DarshChoudhary-09/End-to-End-Project/blob/main/Online_Retail_Raw_Data.zip) · [Data dictionary](#excel) | Final analysis-ready dataset that feeds the dashboard |
+| 🧹 **Cleaned Dataset** | [`02_Data/online_retail_clean.zip`](https://github.com/DarshChoudhary-09/End-to-End-Project/blob/main/online_retail_clean.zip) | Deduplicated transactions exported from MySQL |
 
 **Open the notebook directly in Google Colab:**
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/ikea-gifting-customer-analytics/blob/main/04_Python/Online_retail.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/DarshChoudhary-09/End-to-End-Project/blob/main/Online_retail_Pyhton_Code.ipynb)
 
 ---
 
@@ -84,7 +83,6 @@ IKEA Gifting is framed as a UK-based, online-only retailer of gift ware and home
 4. How do value and churn differ across countries?
 5. What concrete action should the business take for each segment?
 
-**Key definitions** (full detail in the [BRD](./01_Business_Requirements/IKEA_Gifting_BRD.docx))
 
 | Term | Definition |
 |---|---|
@@ -123,7 +121,7 @@ IKEA Gifting is framed as a UK-based, online-only retailer of gift ware and home
 <a id="dashboard"></a>
 ## 📊 Dashboard
 
-📂 **File:** [`06_Dashboard/Ikea_Dashboard.pbix`](./06_Dashboard/Ikea_Dashboard.pbix) (open with the free [Power BI Desktop](https://powerbi.microsoft.com/desktop/))
+📂 **File:** [`06_Dashboard/Ikea_Dashboard.pbix`](https://github.com/DarshChoudhary-09/End-to-End-Project/blob/main/Ikea%20Dashboard.pbix) (open with the free [Power BI Desktop](https://powerbi.microsoft.com/desktop/))
 
 The report has three pages: **Home** (navigation), **Business Overview** and **RFM Analysis**.
 
