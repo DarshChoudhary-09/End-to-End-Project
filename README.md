@@ -127,12 +127,12 @@ The report has three pages: **Home** (navigation), **Business Overview** and **R
 
 ### Business Overview
 <div align="center">
-<img src="C:\Users\HP\Pictures\Screenshots\Screenshot 2026-10-30 225107.png" alt="Business Overview dashboard page" width="900"/>
+<img src="https://github.com/DarshChoudhary-09/End-to-End-Project/blob/main/Screenshot%202026-10-30%20225107.png" alt="Business Overview dashboard page" width="900"/>
 </div>
 
 ### RFM Analysis
 <div align="center">
-<img src="C:\Users\HP\Pictures\Screenshots\Screenshot 2026-10-30 225118.png" alt="RFM Analysis dashboard page" width="900"/>
+<img src="https://github.com/DarshChoudhary-09/End-to-End-Project/blob/main/Screenshot%202026-10-30%20225118.png" alt="RFM Analysis dashboard page" width="900"/>
 </div>
 
 **Interactive features**
@@ -198,7 +198,7 @@ flowchart LR
 <a id="sql"></a>
 ## 🗄️ SQL: Data Cleaning
 
-📂 **File:** [`03_SQL/IKEA_SQL_Code.sql`](./03_SQL/IKEA_SQL_Code.sql)
+📂 **File:** [`03_SQL/IKEA_SQL_Code.sql`](https://github.com/DarshChoudhary-09/End-to-End-Project/blob/main/IKEA%20SQL%20Code.sql)
 
 | Stage | What I did | Result |
 |---|---|---|
@@ -215,8 +215,8 @@ flowchart LR
 <a id="python"></a>
 ## 🐍 Python: RFM Segmentation
 
-📂 **File:** [`04_Python/Online_retail.ipynb`](./04_Python/Online_retail.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/ikea-gifting-customer-analytics/blob/main/04_Python/Online_retail.ipynb)
+📂 **File:** [`04_Python/Online_retail.ipynb`](https://github.com/DarshChoudhary-09/End-to-End-Project/blob/main/Online_retail_Pyhton_Code.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/DarshChoudhary-09/End-to-End-Project/blob/main/Online_retail_Pyhton_Code.ipynb)
 
 **Steps in the notebook**
 
@@ -251,7 +251,7 @@ def segment_customer(row):
 <a id="excel"></a>
 ## 📗 Excel: Data Model
 
-📂 **File:** [`05_Excel/EcommerceDashboardData.xlsx`](./05_Excel/EcommerceDashboardData.xlsx)
+📂 **File:** [`05_Excel/Online_Retail_Clean.xlsx`](https://github.com/DarshChoudhary-09/End-to-End-Project/blob/main/online_retail_clean.zip)
 
 The final dataset that feeds the Power BI report: **779,495 transaction rows × 18 columns**, with customer-level RFM results merged onto every transaction.
 
@@ -353,10 +353,10 @@ ikea-gifting-customer-analytics/
 ## ▶️ How to Reproduce
 
 1. **Get the data.** Download *Online Retail II* from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/502/online+retail+ii), or use the copies in [`02_Data/`](./02_Data/).
-2. **Run the SQL.** Open [`IKEA_SQL_Code.sql`](./03_SQL/IKEA_SQL_Code.sql) in MySQL Workbench, change the file paths in the `LOAD DATA` statements to your own, and run the sections in order.
-3. **Export the clean table** to CSV from MySQL, or unzip [`online_retail_clean.zip`](./02_Data/online_retail_clean.zip).
-4. **Run the notebook.** Open [`Online_retail.ipynb`](./04_Python/Online_retail.ipynb) in Colab, upload the clean CSV, and run all cells. It writes `EcommerceDashboardData.xlsx`.
-5. **Open the dashboard.** Open [`Ikea_Dashboard.pbix`](./06_Dashboard/Ikea_Dashboard.pbix) in Power BI Desktop and refresh the data source to point at your Excel file.
+2. **Run the SQL.** Open [`IKEA_SQL_Code.sql`](https://github.com/DarshChoudhary-09/End-to-End-Project/blob/main/IKEA%20SQL%20Code.sql) in MySQL Workbench, change the file paths in the `LOAD DATA` statements to your own, and run the sections in order.
+3. **Export the clean table** to CSV from MySQL, or unzip [`online_retail_clean.zip`](https://github.com/DarshChoudhary-09/End-to-End-Project/blob/main/online_retail_clean.zip).
+4. **Run the notebook.** Open [`Online_retail.ipynb`](https://github.com/DarshChoudhary-09/End-to-End-Project/blob/main/Online_retail_Pyhton_Code.ipynb) in Colab, upload the clean CSV, and run all cells. It writes `EcommerceDashboardData.xlsx`.
+5. **Open the dashboard.** Open [`Ikea_Dashboard.pbix`](https://github.com/DarshChoudhary-09/End-to-End-Project/blob/main/Ikea%20Dashboard.pbix) in Power BI Desktop and refresh the data source to point at your Excel file.
 
 **Requirements:** MySQL 8.0+, Python 3.10+ with `pandas` and `openpyxl`, Power BI Desktop.
 
