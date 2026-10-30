@@ -127,12 +127,12 @@ The report has three pages: **Home** (navigation), **Business Overview** and **R
 
 ### Business Overview
 <div align="center">
-<img src="./images/dashboard-business-overview.png" alt="Business Overview dashboard page" width="900"/>
+<img src=""C:\Users\HP\Pictures\Screenshots\Screenshot 2026-10-30 225107.png"" alt="Business Overview dashboard page" width="900"/>
 </div>
 
 ### RFM Analysis
 <div align="center">
-<img src="./images/dashboard-rfm-analysis.png" alt="RFM Analysis dashboard page" width="900"/>
+<img src=""C:\Users\HP\Pictures\Screenshots\Screenshot 2026-10-30 225118.png"" alt="RFM Analysis dashboard page" width="900"/>
 </div>
 
 **Interactive features**
